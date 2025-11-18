@@ -1,7 +1,6 @@
-# main.py
 from netmiko import ConnectHandler
 def acces_netmiko():
-    cisco_r = {
+    cisco_router = {
         "device_type": "cisco",
         "host": "sandbox-iosxr-1.cisco.com",
         "username": "admin",
@@ -10,3 +9,6 @@ def acces_netmiko():
     }
 print("Hello, Git!")
 dire_bonjour()
+def dire_salut():
+print("Salut, Git!")
+dire_salut()
